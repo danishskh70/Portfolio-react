@@ -130,7 +130,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Crafted with ❤️ using React & Vite | Last Updated: November 27, 2025 -->
 
-### React Portfolio Website
+# React Portfolio Website
 ## Overview
 
 A modern portfolio template built with React and Vite. Responsive, interactive, and optimized for performance. Designed for developers to customize or extend.
@@ -164,31 +164,31 @@ portfolio/
 
 ## Setup & Run
 
-# Requirements: Node.js v18+ and npm or yarn
+### Requirements: Node.js v18+ and npm or yarn
 
-# Clone the repo:
+### Clone the repo:
 ``` bash 
 git clone https://github.com/yourusername/portfolio.git
 cd portfolio
 ```
 
-# Install dependencies:
+### Install dependencies:
 
 ``` bash 
 npm install
 ```
 
-# Run development server:
+### Run development server:
 
 ``` bash
 npm run dev
 ```
 
 
-# Open http://localhost:5173
+### Open http://localhost:5173
  in your browser
 
-# Build for production:
+### Build for production:
 
 ``` bash 
 npm run build
@@ -202,7 +202,7 @@ Optional Env Variables:
 VITE_API_KEY=your_key_here
 ```
 
-# Customization
+### Customization
 
 Update App.jsx to modify sections, projects, stories, or stats
 
