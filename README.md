@@ -130,7 +130,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Crafted with ❤️ using React & Vite | Last Updated: November 27, 2025 -->
 
-### React Portfolio Website
+###  React Portfolio Website
 ## Overview
 
 A modern portfolio template built with React and Vite. Responsive, interactive, and optimized for performance. Designed for developers to customize or extend.
