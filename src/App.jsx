@@ -39,7 +39,7 @@ function App() {
     {
       title: "Professional Internships",
       content:
-        "Started professional journey with internships at Sumago InfoTech and Symbiosis University, working on real-world projects and AI-integrated applications.",
+        "Started professional journey with internships, working on real-world projects and AI-integrated applications.",
       year: "2023-2024",
       emoji: "💼",
     },
@@ -502,9 +502,8 @@ function App() {
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8">
               Welcome to my digital portfolio! I'm Danish Shaikh, a passionate
               Full-Stack Developer specializing in Java, React.js, and
-              AI-integrated applications. Based in Pune, India, I have hands-on
-              experience building modern web applications and scalable backend
-              systems.
+              AI-integrated applications. I have hands-on experience building modern 
+              web applications and scalable backend systems.
             </p>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
               With a proven track record in developing AI-powered solutions and
@@ -663,7 +662,7 @@ function App() {
                     Full Stack Java Developer
                   </h3>
                   <p className="text-lg text-purple-400">
-                    Symbiosis Skills & Professional University, Pune
+                    Software Development Company
                   </p>
                 </div>
                 <div className="text-lg text-yellow-400 font-semibold mt-2 md:mt-0">
@@ -697,7 +696,7 @@ function App() {
                     Full Stack Development Intern
                   </h3>
                   <p className="text-lg text-purple-400">
-                    Sumago InfoTech Pvt. Ltd.
+                    IT Solutions Company
                   </p>
                 </div>
                 <div className="text-lg text-yellow-400 font-semibold mt-2 md:mt-0">
@@ -976,7 +975,7 @@ function App() {
                     B.E. in Information Technology
                   </h4>
                   <p className="text-lg text-yellow-400">
-                    Savitribai Phule Pune University
+                    University
                   </p>
                   <p className="text-gray-300">2021 – 2025</p>
                 </div>
@@ -986,7 +985,7 @@ function App() {
                     HSC (PCMB)
                   </h4>
                   <p className="text-lg text-yellow-400">
-                    Maharashtra State Board
+                    State Board
                   </p>
                   <p className="text-gray-300">First Class | 2021</p>
                 </div>
@@ -994,7 +993,7 @@ function App() {
                 <div className="text-center">
                   <h4 className="text-xl font-bold text-purple-400">SSC</h4>
                   <p className="text-lg text-yellow-400">
-                    Maharashtra State Board
+                    State Board
                   </p>
                   <p className="text-gray-300">First Class | 2019</p>
                 </div>
@@ -1009,8 +1008,8 @@ function App() {
 
               <div className="space-y-4">
                 {[
-                  "Full Stack Development (React.js) — Sumago Infotech",
-                  "Full Stack Java — Symbiosis University",
+                  "Full Stack Development (React.js)",
+                  "Full Stack Java",
                   "NPTEL — Programming in Java",
                   "Galactic Problem Solver — NASA Space Apps",
                   "Runner-Up — PICT Hackathon",
@@ -1388,31 +1387,30 @@ function App() {
               {
                 icon: "📧",
                 label: "Email",
-                value: "danishshk70@gmail.com",
-                action: "mailto:danishshk70@gmail.com",
+                value: "Available on request",
+                action: "#contact",
               },
               {
                 icon: "📱",
                 label: "Phone",
-                value: "+91‑74473‑12114",
-                action: "tel:+917447312114",
+                value: "Available on request",
+                action: "#contact",
               },
               {
                 icon: "💼",
                 label: "LinkedIn",
-                value: "in/danish-shaikh-262016265",
-                action: "https://linkedin.com/in/danish-shaikh-262016265",
+                value: "Connect via LinkedIn",
+                action: "#contact",
               },
               {
                 icon: "🐙",
                 label: "GitHub",
-                value: "@danishskh70",
-                action: "https://github.com/danishskh70",
+                value: "Portfolio available",
+                action: "#contact",
               },
             ].map((contact, index) => (
-              <a
+              <div
                 key={index}
-                href={contact.action}
                 className={`backdrop-blur-sm rounded-3xl p-8 border transition-all duration-500 hover:scale-105 group ${
                   isDark
                     ? "bg-gray-800/50 border-gray-700"
@@ -1430,7 +1428,7 @@ function App() {
                 <div className={isDark ? "text-cyan-400" : "text-purple-600"}>
                   {contact.value}
                 </div>
-              </a>
+              </div>
             ))}
           </div>
 
